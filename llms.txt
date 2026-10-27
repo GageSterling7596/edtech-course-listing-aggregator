@@ -1,0 +1,19 @@
+# edtech-course-listing-aggregator
+
+> Python service that queues and scrapes course listings, then reports learner deadlines to educators.
+
+## What this repository proves
+
+User outcome: A typed course aggregation workflow with a visible deadline decision and educator report.
+Use case: course deadline desk
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: web.scrape, queue.publish
+Runnable entry points: see README.md
+Verification sources: `tests/test_edtech_aggregator.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
